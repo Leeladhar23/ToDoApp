@@ -1,0 +1,3 @@
+vir/
+.env
+*.py # Ignoring developement files
