@@ -97,7 +97,7 @@ DATABASES = {
 }
 
 # Check if running tests
-if 'test' in sys.argv or 'test_coverage' in sys.argv:
+if 'test' in sys.argv or 'test_coverage' not in sys.argv:
     DATABASES['default'] = DATABASES['test']    
 
 # Password validation
